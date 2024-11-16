@@ -63,7 +63,7 @@ function Footer() {
                   href="mailto:info@caringheartshome.com"
                 >
                   <Mail className="mr-2 h-4 w-4" />
-                  info@horizonahc.com
+                  info@horizonagh.com
                 </Link>
                 <div className="flex items-start">
                   <MapPin className="mr-2 h-4 w-4 mt-0.5" />
@@ -78,7 +78,7 @@ function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          © 2024 Horizon Adult Home Care. All rights reserved.
+          © 2024 Horizon Adult Group Home. All rights reserved.
         </div>
       </div>
     </footer>
