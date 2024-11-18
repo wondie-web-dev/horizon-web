@@ -10,26 +10,23 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 
 const routes = [
-    { href: "/", label: "Home" },
-    { href: "/services", label: "Services" },
-    { href: "/about", label: "About Us" },
-    { href: "/admissions", label: "Admissions" },
-    { href: "/gallery", label: "Gallery" },
-    { href: "/contact", label: "Contact" },
-  ];
-  
-  function HeaderNav() {
-    const [isOpen, setIsOpen] = useState(false);
-    const pathname = usePathname();
-  
-    return (
-    //   <header className="flex justify-between sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <header className='flex items-center justify-between px-6 py-4 h-[50px] '>
-        <div className="lg:pl-[10%] sm:pl-[2%] container flex h-16 items-center">
-        {/* <nav className="ml-auto flex gap-4 sm:gap-6"> */}
-        <nav className="container flex h-16 items-center">
+  { href: "/", label: "Home" },
+  { href: "/work-in-progress", label: "Services" },
+  { href: "/work-in-progress", label: "About Us" },
+  { href: "/work-in-progress", label: "Admissions" },
+  { href: "/work-in-progress", label: "Gallery" },
+  { href: "/work-in-progress", label: "Contact" },
+];
+
+function HeaderNav() {
+  const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  return (
+    <header className='flex items-center justify-between px-6 py-4 h-[50px] '>
+      <div className="lg:pl-[10%] sm:pl-[2%] container flex h-16 items-center">
         <Logo />
-  
+        <nav className="container flex h-16 items-center">
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:space-x-6 lg:pl-[26%] sm:pl-[5%]">
             {routes.map((route) => (
@@ -47,7 +44,7 @@ const routes = [
               </Link>
             ))}
           </div>
-  
+
           {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden ml-auto">
@@ -77,51 +74,9 @@ const routes = [
             </SheetContent>
           </Sheet>
         </nav>
-        </div>
-      </header>
-    );
-  }
+      </div>
+    </header>
+  );
+}
+
 export default HeaderNav
-
-// const routes = [
-
-//     {
-//         name: "Home",
-//         href: "/",
-//     },
-//     {
-//         name: "Services",
-//         href: "services",
-//     },
-//     {
-//         name: "About",
-//         href: "about",
-//     },
-//     {
-//         name: "Gallery",
-//         href: "gallery",
-//     },
-//     {
-//         name: "Contact",
-//         href: "contact",
-//     },
-// ]
-// function HeaderNav() {
-//     return (
-//         <>
-//             {/* <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"> */}
-//             <header className='flex items-center justify-between px-6 py-4 h-[50px] container'>
-//                 <div className="lg:pl-[10%] container flex h-16 items-center">
-//                     <Logo />
-//                     <nav className="ml-auto flex gap-4 sm:gap-6">
-//                         {routes.map((route) => (
-//                             <Link key={route.href} href={route.href} className="text-sm font-medium hover:text-primary">
-//                                 {route.name}
-//                             </Link>
-//                         ))}
-//                     </nav>
-//                 </div>
-//             </header>
-//         </>
-//     )
-// }
