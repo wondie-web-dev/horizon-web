@@ -11,11 +11,11 @@ import { Menu } from "lucide-react";
 
 const routes = [
   { href: "/", label: "Home" },
-  { href: "/work-in-progress", label: "Services" },
-  { href: "/work-in-progress", label: "About Us" },
-  { href: "/work-in-progress", label: "Admissions" },
-  { href: "/work-in-progress", label: "Gallery" },
-  { href: "/work-in-progress", label: "Contact" },
+  { href: "/services", label: "Services" },
+  { href: "/about", label: "About Us" },
+  { href: "/admissions", label: "Admissions" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/contact", label: "Contact" },
 ];
 
 function HeaderNav() {
