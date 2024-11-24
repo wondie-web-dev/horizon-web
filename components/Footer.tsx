@@ -59,10 +59,10 @@ function Footer() {
                 </Link>
                 <Link
                   className="flex items-center hover:text-primary"
-                  href="mailto: teferaafh@gmail.com"
+                  href="mailto: info@horizonagh.com"
                 >
                   <Mail className="mr-2 h-4 w-4" />
-                  teferaafh@gmail.com
+                  info@horizonagh.com
                 </Link>
                 <div className="flex items-start">
                   <MapPin className="mr-2 h-4 w-4 mt-0.5" />
