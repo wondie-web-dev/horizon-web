@@ -10,19 +10,23 @@ function Footer() {
     },
     {
       name: "Services",
-      href: "/work-in-progress",
+      href: "/services",
     },
     {
       name: "About",
-      href: "/work-in-progress",
+      href: "/about",
+    },
+    {
+      name: "Admissions",
+      href: "/admissions",
     },
     {
       name: "Gallery",
-      href: "/work-in-progress",
+      href: "/gallery",
     },
     {
       name: "Contact",
-      href: "/work-in-progress",
+      href: "/contact",
     },
   ]
   return (
