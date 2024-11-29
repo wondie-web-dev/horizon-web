@@ -8,11 +8,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 function AboutPage() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <main className="flex-1">
+    <div className="flex flex-col min-h-screen items-center">
+      <main className="flex-1 w-full">
         {/* Company Overview */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-[#003B5C]">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center text-white">
               <Heart className="h-12 w-12 text-emerald-400" />
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
@@ -27,7 +27,7 @@ function AboutPage() {
 
         {/* Mission and Values */}
         <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">Our Mission and Values</h2>
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
@@ -69,7 +69,7 @@ function AboutPage() {
 
         {/* Our Story */}
         <section className="w-full py-12 md:py-24 lg:py-32 overflow-hidden">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="grid gap-10 lg:grid-cols-2 items-center">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Story</h2>
@@ -100,7 +100,7 @@ function AboutPage() {
 
         {/* Our Approach to Care */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 overflow-hidden">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">Our Approach to Care</h2>
             <div className="grid gap-10 lg:grid-cols-2 items-center">
             <div className="order-2 lg:order-1 relative w-full max-w-sm md:max-w-xl lg:max-w-2xl mx-auto">
@@ -130,7 +130,7 @@ function AboutPage() {
 
         {/* Commitment to Quality */}
         <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">Our Commitment to Quality</h2>
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
@@ -172,7 +172,7 @@ function AboutPage() {
 
         {/* Testimonials */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">What Families Say</h2>
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
               {[
@@ -193,7 +193,7 @@ function AboutPage() {
 
         {/* Community and Activities */}
         <section className="w-full py-12 md:py-24 lg:py-32 overflow-hidden">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">Community and Activities</h2>
             <div className="grid gap-10 lg:grid-cols-2 items-center">
               <div className="space-y-4">
@@ -232,7 +232,7 @@ function AboutPage() {
 
         {/* Contact Information */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-[#003B5C] text-white">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Get in Touch
